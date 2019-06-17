@@ -1,0 +1,16 @@
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Pokemon.Models.dll
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Microsoft.Extensions.Primitives.dll
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Microsoft.Extensions.Primitives.xml
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\obj\Debug\netstandard2.0\Pokemon.Services.csprojAssemblyReference.cache
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\obj\Debug\netstandard2.0\Pokemon.Services.csproj.CoreCompileInputs.cache
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\obj\Debug\netstandard2.0\Pokemon.Services.AssemblyInfoInputs.cache
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\obj\Debug\netstandard2.0\Pokemon.Services.AssemblyInfo.cs
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Pokemon.Services.deps.json
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Pokemon.Services.dll
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Pokemon.Services.pdb
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\bin\Debug\netstandard2.0\Pokemon.Models.pdb
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\obj\Debug\netstandard2.0\Pokemon.Services.csproj.CopyComplete
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\obj\Debug\netstandard2.0\Pokemon.Services.dll
+D:\Development\aspnetcore\blazor\pokemon\Pokemon.Services\obj\Debug\netstandard2.0\Pokemon.Services.pdb

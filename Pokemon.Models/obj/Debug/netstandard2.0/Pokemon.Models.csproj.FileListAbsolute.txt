@@ -1,0 +1,8 @@
+D:\Development\aspnetcore\blazor\Pokemon.Models\bin\Debug\netstandard2.0\Pokemon.Models.deps.json
+D:\Development\aspnetcore\blazor\Pokemon.Models\bin\Debug\netstandard2.0\Pokemon.Models.dll
+D:\Development\aspnetcore\blazor\Pokemon.Models\bin\Debug\netstandard2.0\Pokemon.Models.pdb
+D:\Development\aspnetcore\blazor\Pokemon.Models\obj\Debug\netstandard2.0\Pokemon.Models.csproj.CoreCompileInputs.cache
+D:\Development\aspnetcore\blazor\Pokemon.Models\obj\Debug\netstandard2.0\Pokemon.Models.AssemblyInfoInputs.cache
+D:\Development\aspnetcore\blazor\Pokemon.Models\obj\Debug\netstandard2.0\Pokemon.Models.AssemblyInfo.cs
+D:\Development\aspnetcore\blazor\Pokemon.Models\obj\Debug\netstandard2.0\Pokemon.Models.dll
+D:\Development\aspnetcore\blazor\Pokemon.Models\obj\Debug\netstandard2.0\Pokemon.Models.pdb
