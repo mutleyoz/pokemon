@@ -1,0 +1,39 @@
+@using Pokemon.Models
+@using Pokemon.Services
+
+@page "/pokedex"
+@inject PokemonService pokemonService
+
+<h3>Pokedex</h3>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="input-group col-4">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="pokemonlabel">Name</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Name" @bind="pokemonName" />
+            <button type="button" class="btn btn-primary" @onclick="@FetchPokemonAsync">Catch</button>
+        </div>
+    </div>
+
+    @if (pokemon != null)
+    {
+        <PokemonDetails SelectedPokemon="pokemon"></PokemonDetails>
+    }
+</div>
+
+
+@code {
+private string pokemonName { get; set; }
+private PokemonAttributes pokemon { get; set; }
+
+protected async void FetchPokemonAsync()
+{
+    if (!string.IsNullOrEmpty(pokemonName))
+    {
+        pokemon = await pokemonService.GetPokemonAsync(pokemonName);
+        this.StateHasChanged();
+    }
+}
+}

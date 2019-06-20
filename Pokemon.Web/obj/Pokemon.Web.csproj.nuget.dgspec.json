@@ -4,14 +4,14 @@
     "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Web\\Pokemon.Web.csproj": {}
   },
   "projects": {
-    "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj": {
+    "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj",
+        "projectUniqueName": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj",
         "projectName": "Pokemon.Models",
-        "projectPath": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj",
+        "projectPath": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj",
         "packagesPath": "C:\\Users\\Sean\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\obj\\",
+        "outputPath": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -87,8 +87,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj": {
-                "projectPath": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj"
+              "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj": {
+                "projectPath": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj"
               }
             }
           }
@@ -166,6 +166,33 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0-preview5.19227.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview5.19227.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0-preview5.19227.9, )"
+            },
+            "Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0-preview5-19264-04, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

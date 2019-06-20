@@ -142,3 +142,22 @@ app {
         display: block;
     }
 }
+
+@media (min-width: 767px) {
+
+    .pokemon-body {
+        margin-top: 20px;
+    }
+
+    .movelist {
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        height: 300px;
+        overflow: auto;
+    }
+
+    .card-body {
+        background-color: darkgrey;
+        color: white;
+    }
+}

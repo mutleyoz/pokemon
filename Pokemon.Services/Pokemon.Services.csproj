@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Pokemon.Models\Pokemon.Models.csproj" />
+    <ProjectReference Include="..\Pokemon.Models\Pokemon.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>

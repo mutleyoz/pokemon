@@ -15,12 +15,11 @@ namespace Pokemon.Services
             _client = client;
         }
 
-        public async Task<Pokemon.Models.Pokemon> GetPokemon(int id)
+        public async Task<Pokemon.Models.PokemonAttributes> GetPokemonAsync(string name)
         {
-            var result = await _client.Client.GetStringAsync($"/v2/pokemon/{id}");
+            var result = await _client.FetchPokemonByNameAsync(name);
 
-            return JsonConvert.DeserializeObject<Pokemon.Models.Pokemon>(result);
+            return JsonConvert.DeserializeObject<Pokemon.Models.PokemonAttributes>(result);
         }
-
     }
 }

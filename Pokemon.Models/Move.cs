@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Pokemon.Models
+﻿namespace Pokemon.Models
 {
-    public class Move
+    public struct PokemonMoves
+    {
+        public move move { get; set; }
+    }
+
+    public struct move
     {
         public string name { get; set; }
     }

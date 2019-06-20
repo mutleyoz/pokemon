@@ -1,0 +1,11 @@
+@using Pokemon.Models;
+
+    <h5>Moves</h5>
+    @foreach (var moveAttribute in PokemonMovesCollection)
+    {
+        <span>@moveAttribute.move.name&nbsp;</span>
+    }
+
+@code {
+[Parameter] PokemonMoves[] PokemonMovesCollection { get; set; }
+}

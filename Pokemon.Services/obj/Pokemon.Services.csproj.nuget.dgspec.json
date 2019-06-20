@@ -4,14 +4,14 @@
     "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Services\\Pokemon.Services.csproj": {}
   },
   "projects": {
-    "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj": {
+    "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj",
+        "projectUniqueName": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj",
         "projectName": "Pokemon.Models",
-        "projectPath": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj",
+        "projectPath": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj",
         "packagesPath": "C:\\Users\\Sean\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\obj\\",
+        "outputPath": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -87,8 +87,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj": {
-                "projectPath": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj"
+              "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj": {
+                "projectPath": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj"
               }
             }
           }

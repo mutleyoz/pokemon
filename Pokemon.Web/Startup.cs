@@ -29,6 +29,7 @@ namespace Pokemon.Web
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddSingleton<PokemonService>();
 
             services.AddHttpClient<PokemonHttpClient>(client =>
             {

@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace Pokemon.Models
+﻿namespace Pokemon.Models
 {
-    public class Pokemon
+    public class PokemonAttributes
     {
         public int id { get; set; }
 
@@ -10,7 +8,7 @@ namespace Pokemon.Models
 
         public Form[] forms { get; set; }
 
-        public Move[] moves { get; set; }
+        public PokemonMoves[] moves { get; set; }
 
         public Sprites sprites { get; set; }
     }

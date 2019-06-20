@@ -222,8 +222,8 @@
     },
     "Pokemon.Models/1.0.0": {
       "type": "project",
-      "path": "../../Pokemon.Models/Pokemon.Models.csproj",
-      "msbuildProject": "../../Pokemon.Models/Pokemon.Models.csproj"
+      "path": "../Pokemon.Models/Pokemon.Models.csproj",
+      "msbuildProject": "../Pokemon.Models/Pokemon.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -263,8 +263,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj": {
-              "projectPath": "D:\\Development\\aspnetcore\\blazor\\Pokemon.Models\\Pokemon.Models.csproj"
+            "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj": {
+              "projectPath": "D:\\Development\\aspnetcore\\blazor\\pokemon\\Pokemon.Models\\Pokemon.Models.csproj"
             }
           }
         }
